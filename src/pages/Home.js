@@ -10,7 +10,7 @@ function Home() {
   }
   return (
     <Wrapper>
-      <Header>예비집사 판별기</Header>
+      <Header>예비집사 판별기ㅎ</Header>
       <Title>나에게 맞는 주인은?</Title>
       <LogoImage>
         <img src={ CatImage01 } />
