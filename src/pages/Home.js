@@ -13,7 +13,7 @@ function Home() {
       <Header>예비집사 판별기ㅎ</Header>
       <Title>나에게 맞는 주인은?</Title>
       <LogoImage>
-        <img src={ CatImage01 } />
+        <img src={ CatImage01 } alt="고양이 이미지" />
       </LogoImage>
       <Desc>MBTI를 기반으로 나와 잘맞는 고양이 찾기</Desc>
       <Button01 onClick={ handleClickButton }>테스트 시작하기</Button01>

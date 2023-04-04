@@ -24,7 +24,7 @@ function Result() {
       <Header>예비집사 판별기</Header>
       <Title>결과 보기</Title>
       <LogoImage>
-        <img src={ resultData.image } />
+        <img src={ resultData.image } alt={ resultData.name } />
       </LogoImage>
       <Desc>
         <p><strong>{ resultData.best }</strong> 성향의 예비 집사와 찰떡궁합인 고양이는 <strong>"{ resultData.name }"</strong> 입니다.</p>
